@@ -4,7 +4,7 @@ const getContacts = (req, res) => {
 }
 
 const getContact = (req, res) => {
-    res.json({ message: `get contact by id ${req.params.id}` });
+    res.json({ message: `get contact by  sirzan id ${req.params.id}` });
 }
 const createContact = (req, res) => {
     res.json({ message: "create new contact" });
@@ -17,7 +17,7 @@ const deleteContact = (req, res) => {
     res.json({ message: `delete contact by id ${req.params.id}` });
 
 }
-module.expports = {
+module.exports = {
     getContacts, 
     getContact,
     createContact,
